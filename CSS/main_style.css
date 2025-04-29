@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    border-left: 40px solid #2d2d2d;
+    border-right: 40px solid #2d2d2d;
+}
+
+#general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mini_general {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: #4CAF50;  
+}
+
+#cryptos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#cryptos div {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+#cryptos img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+a.crypto {
+    display: inline-block;
+    border: 7px solid #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+a.crypto:hover {
+    background-color: #388E3C;
+    border-color: #388E3C;
+    color: white;
+}

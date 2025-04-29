@@ -1,0 +1,44 @@
+#display_compra {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align: center;
+    border: 5px solid rgb(240, 102, 102);
+    padding: 20px;
+    margin: 40px auto;
+    width: 60%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    text-align: center;
+    background-color: rgb(240, 102, 102);
+    border: 7px solid rgb(240, 102, 102);
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(212, 52, 52);
+    border-top: 5px solid rgb(212, 52, 52);
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    border: 7px solid rgb(240, 102, 102);
+    background-color: rgb(240, 102, 102);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    left: 45%;
+}
+
+#link {
+    text-align: center;
+}
